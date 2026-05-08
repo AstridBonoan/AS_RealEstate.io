@@ -1,0 +1,10 @@
+---
+description: After making substantive code or config edits, commit and push to origin so GitHub and Pages stay current.
+alwaysApply: true
+---
+
+# Push changes to GitHub
+
+When you finish a task that edits project files (not only answering questions), **commit** those changes with a clear message and **`git push`** to `origin` on the current branch (usually `main`), unless the user explicitly asked not to push or there is no remote.
+
+If `git push` fails (auth, conflicts), report the error and what is needed to fix it; do not claim the push succeeded.
